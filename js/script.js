@@ -13,8 +13,8 @@ function calculate() {
   const Height = parseInt(document.getElementById('Height').value)
 
   // process
-  const Volumn = Length * Width * Height
+  const volume = Length * Width * Height
 
   // output
-  document.getElementById('Volumn').innerHTML = 'Volumn is: ' + Volumn + 'cm³'
+  document.getElementById('volume').innerHTML = 'volume is: ' + volume + 'cm³'
 }
